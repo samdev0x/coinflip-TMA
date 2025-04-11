@@ -1,0 +1,27 @@
+.custom-ton-connect-button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1AC9FF;
+  box-shadow: 0 4px #2D83EC;
+  font-family: 'Minecraft', sans-serif;
+  cursor: pointer;
+}
+
+.connect-button, .disconnect-button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-shadow: 1px 1px #2D83EC;
+  transition: transform 0.2s;
+}
+
+.connect-button:hover, .disconnect-button:hover {
+  transform: translateY(-2px);
+}
+
+.connect-button:active, .disconnect-button:active {
+  transform: translateY(2px);
+}

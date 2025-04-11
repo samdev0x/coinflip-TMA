@@ -1,0 +1,5 @@
+.half-card-container {
+    position: sticky;
+    bottom: 0;
+    transform: translateY(-10%);
+  }

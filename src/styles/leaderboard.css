@@ -1,0 +1,52 @@
+.leaderboard-list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.leaderboard-item:last-child {
+  border-bottom: none;
+}
+
+.leaderboard-points {
+  color: #2D83EC;
+  font-size: 0.9rem;
+}
+
+.leaderboard-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  object-fit: cover;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+.leaderboard-rank {
+  margin-right: 8px;
+  font-weight: bold;
+  min-width: 20px;
+  text-align: right;
+}
+
+.leaderboard-username {
+  flex-grow: 1;
+  margin-right: 8px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.leaderboard-item.current-user {
+  background-color: #fffae6;
+  border-left: 4px solid #1AC9FF;
+}

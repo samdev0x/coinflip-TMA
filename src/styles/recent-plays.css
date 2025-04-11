@@ -1,0 +1,74 @@
+.recent-plays-list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.recent-play-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.recent-play-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.recent-play-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-play-username {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.outcome {
+  font-weight: bold;
+}
+
+.outcome.doubled {
+  color: mediumseagreen;
+}
+
+.outcome.rugged {
+  color: red;
+}
+
+.recent-play-time {
+  align-self: flex-end;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.recent-play-item:last-child {
+  border-bottom: none;
+}
+
+/* Additional Optional Styles for Better Appearance */
+.recent-plays-list p {
+  text-align: center;
+  color: #666;
+}
+
+.pixel-toast-success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  font-family: 'Minecraft';
+  text-align: center;
+}
+
+.pixel-toast-error {
+  background-color: #f2dede;
+  color: #a94442;
+  font-family: 'Minecraft';
+  text-align: center;
+}

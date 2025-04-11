@@ -1,0 +1,11 @@
+.coinflip-adjust-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.coinflip-adjust-button {
+  width: 30%;
+  margin: 0 0.25rem;
+}

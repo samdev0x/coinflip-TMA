@@ -1,0 +1,96 @@
+.profile-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 100%; /* Ensure the profile container fits within the viewport */
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    max-width: 100px; /* Prevent avatar from exceeding container */
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 120px); /* Ensure info fits next to the avatar */
+}
+
+.profile-info p {
+    margin: 5px 0;
+    word-wrap: break-word; /* Prevent text overflow */
+}
+
+.popup-content {
+    text-align: center;
+    line-height: 1.5;
+    padding: 20px;
+    max-width: 90vw;  /* Ensure the popup content does not exceed 90% of the viewport width */
+    max-height: 80vh; /* Ensure the popup content does not exceed 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if the content is too tall */
+}
+
+.popup-content strong {
+    color: #2D83EC;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.popup-content br {
+    margin-bottom: 10px;
+}
+
+.popup-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #1AC9FF;
+}
+
+.popup-section-title {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #c381b5;
+    text-decoration: underline;
+}
+
+.card-container {
+    transform: translateY(-0.25%);
+}
+
+/* Add padding at the bottom to ensure the close button is accessible */
+.responsive-popup {
+    padding-bottom: 20px;
+}
+
+/* Ensure the close button is always accessible */
+@media (max-width: 768px) {
+    .popup-content {
+        padding: 15px; /* Slightly reduce padding on smaller screens */
+    }
+
+    .popup-title {
+        font-size: 1.3em; /* Slightly reduce title size on smaller screens */
+    }
+
+    .popup-section-title {
+        font-size: 1.1em; /* Adjust section title size for better readability */
+    }
+}
+
+.referred-users-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.referred-user-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
