@@ -5,12 +5,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB2oKacDljwVnCs19YnGFhc9Zhx4KfTT50",
-  authDomain: "tonflip-a5f96.firebaseapp.com",
-  projectId: "tonflip-a5f96",
-  storageBucket: "tonflip-a5f96.appspot.com",
-  messagingSenderId: "4377866544",
-  appId: "1:4377866544:web:f0026aba9d7f721a2318f5"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);

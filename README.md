@@ -33,13 +33,6 @@ Users can log in with Telegram, place bets using virtual points, and earn reward
 
 ---
 
-## 📸 Screenshots
-
-### Main UI
-![Main UI](tonflip.jpg)
-
----
-
 ## 🚀 How It Works
 
 1. User launches the app via Telegram (WebApp button)
